@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -t | heaf -n 10
