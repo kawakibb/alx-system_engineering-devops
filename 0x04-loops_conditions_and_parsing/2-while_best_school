@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# prints a msg 10 times using the loop while
+
+i=0
+
+while [ "$i" -lt 10 ]; do
+  echo "Best School"
+  ((i++))
+done
