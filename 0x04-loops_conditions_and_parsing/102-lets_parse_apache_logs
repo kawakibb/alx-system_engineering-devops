@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Write the visitor IP along with the HTTP status
+
+awk '{ print $1,$9 }' apache-access.log
